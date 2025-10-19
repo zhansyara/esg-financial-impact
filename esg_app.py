@@ -9,7 +9,7 @@ st.write("Input your financial indicators to estimate EBITDA Margin and visualiz
 
 # Load trained model (after saving it)
 import joblib
-model = joblib.load("/Users/zhansaya/Downloads/ebitda_model.pkl")
+model = joblib.load("ebitda_model.pkl")
 
 # model = joblib.load("ebitda_model.pkl")
 
